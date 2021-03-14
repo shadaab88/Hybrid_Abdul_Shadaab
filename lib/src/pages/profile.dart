@@ -16,8 +16,8 @@ class _SignoutState extends StateMVC<Signout> {
     _con = controller;
   }
 
-  final GlobalKey<FormState> _loginFormKey = GlobalKey<FormState>();
-  final _scaffoldKey = GlobalKey<ScaffoldState>();
+  // final GlobalKey<FormState> _loginFormKey = GlobalKey<FormState>();
+  // final _scaffoldKey = GlobalKey<ScaffoldState>();
   TextEditingController emailInputController;
   TextEditingController pwdInputController;
 

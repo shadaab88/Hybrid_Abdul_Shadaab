@@ -12,14 +12,10 @@ class Home extends StatefulWidget{
 
 class _HomeState extends StateMVC<Home> {
 
-  LoginController _con;
 
   _HomeState() : super(LoginController()) {
-    _con = controller;
   }
 
-  final GlobalKey<FormState> _loginFormKey = GlobalKey<FormState>();
-  final _scaffoldKey = GlobalKey<ScaffoldState>();
   TextEditingController emailInputController;
   TextEditingController pwdInputController;
 
@@ -69,7 +65,7 @@ class _HomeState extends StateMVC<Home> {
                   itemBuilder: (BuildContext ctxt, int index) {
                     return new  Container(
                       margin: new EdgeInsets.only(top: 10.0,bottom: 10.0),
-                      height: deviceHeight*0.12,
+                      height: deviceHeight*0.14,
                       width: deviceWidth*0.90,
                       child: Card(
                         elevation: 1.7,

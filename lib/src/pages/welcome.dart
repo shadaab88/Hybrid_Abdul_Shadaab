@@ -1,4 +1,3 @@
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 import 'package:Hybrid_Abdul_Shadaab/src/controllers/welcome.dart';
@@ -10,10 +9,7 @@ class Welcome extends StatefulWidget{
 
 class _WelcomeState extends StateMVC<Welcome> {
 
-  WelcomeController _con;
-
   _WelcomeState() : super(WelcomeController()) {
-    _con = controller;
   }
 
   @override

@@ -5,9 +5,6 @@ import 'package:pinput/pin_put/pin_put.dart';
 import 'package:Hybrid_Abdul_Shadaab/src/controllers/logincontroller.dart';
 import 'package:Hybrid_Abdul_Shadaab/src/pages/index.dart';
 
-import 'home.dart';
-import 'setpassword.dart';
-
 class PhoneAuthVerify extends StatefulWidget{
 
   String phonenumber;
