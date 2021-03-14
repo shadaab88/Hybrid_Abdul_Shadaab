@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "175632307078",
+    "project_id": "hybridabdulshadaab",
+    "storage_bucket": "hybridabdulshadaab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175632307078:android:8c569bfb8b991020509207",
+        "android_client_info": {
+          "package_name": "com.example.Hybrid_Abdul_Shadaab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175632307078-ps9ombaml5ue6qe3qqnslnd3cq8k3euk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.Hybrid_Abdul_Shadaab",
+            "certificate_hash": "ce4ad453093acf01c077181d96e32896f6ab03f8"
+          }
+        },
+        {
+          "client_id": "175632307078-56f92ioc42g2fsqoc9tfva3m0ptcilif.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWXn8gzp7vIjrX5avG7umwkdyxk8O6JIU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175632307078-56f92ioc42g2fsqoc9tfva3m0ptcilif.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
